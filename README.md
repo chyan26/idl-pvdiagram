@@ -1,4 +1,4 @@
-# PV Diagram for IDL
+PV Diagram for IDL
 =========================
 
 Introduction
@@ -22,10 +22,11 @@ Download the IDL source code here and put this file to a directory.  Make sure t
 
 
 Syntax
-
+------------------
+```
  CALLING SEQUENCE:
-       PVDIAGRAM,fits=fits,[vel_range=[min,max],scale=scale]
 
+       PVDIAGRAM,fits=fits,[vel_range=[min,max],scale=scale]
  INPUTS:
        FITS   - FITS cube exported from CASA or GILDAS
 
@@ -34,21 +35,21 @@ Syntax
        SCALE     - scaling factor for integrated map       
        XYSTART   - positiion of begining point for PV analysis
        XYEND     - positiion of ending point for PV analysis
-
+```
 
 Example
 ------------------
 Executing the program from prompt.  You will see a window like this.  The is the integrated intensity map of your FITS cube.  There are three buttons, Slice, Clear Line and Exit.  
 
-<img src="https://github.com/chyan26/idl-pvdiagram/blob/master/images/screen1.png" width=700/>
+<img src="https://github.com/chyan26/idl-pvdiagram/blob/master/images/screen1.png" width=600/>
 
 
 You can use cursor to draw a line or input coordinates to draw a line.  The line will be shown like the following figure. 
 
-<img src="https://github.com/chyan26/idl-pvdiagram/blob/master/images/screen1.png" width=700/>
+<img src="https://github.com/chyan26/idl-pvdiagram/blob/master/images/screen1.png" width=600/>
 
 When you are ready, click Slice button and the PV diagram window will show up as shown below.  This PV diagram can be saved in different formats, you can use them in your presentation or writing. 
-<img src="https://github.com/chyan26/idl-pvdiagram/blob/master/images/pvdiagram.png" width=700/>
+<img src="https://github.com/chyan26/idl-pvdiagram/blob/master/images/pvdiagram.png" width=600/>
 
 
 
