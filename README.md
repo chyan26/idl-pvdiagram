@@ -3,7 +3,7 @@ PV Diagram for IDL
 
 Introduction
 -------------------------
-For long time, I use IDL as my analysis tool for OIR astronomy.  IDL provided wonderful support on FIT IO, WCS mapping and plotting libraries.  The most important thing is that it allows users to expanded the function.  Recently, I used data from radio telescope to understand the gas dynamics and how they interact with molecular cloud.  PV diagram is a very important tool in radio astronomy.  However, there is no such a tool in the world of IDL.  Researchers used command line tools like GILDAS, MIRIAD and CASA to analyze the FITS cube.  However, none of these packages fits all following needs.
+For long time, IDL has benn a useful tool for analyzing images in OIR astronomy.  IDL provided wonderful support for FIT IO, WCS mapping and plotting libraries.  The most important thing is that it allows users to expanded the function.  Recently, I used data from radio telescope to understand the gas dynamics and how they interact with molecular cloud.  PV diagram is a very important tool in radio astronomy.  However, there is no such a tool in the world of IDL.  Researchers used command line tools like GILDAS, MIRIAD and CASA to analyze the FITS cube.  However, none of these packages fits all following needs.
 
 1. Analyzing the PV diagram of sub-region in a big radio map.
 2. GUI window to interact with a user.
@@ -49,6 +49,7 @@ You can use cursor to draw a line or input coordinates to draw a line.  The line
 <img src="https://github.com/chyan26/idl-pvdiagram/blob/master/images/screen1.png" width=600/>
 
 When you are ready, click Slice button and the PV diagram window will show up as shown below.  This PV diagram can be saved in different formats, you can use them in your presentation or writing. 
+
 <img src="https://github.com/chyan26/idl-pvdiagram/blob/master/images/pvdiagram.png" width=600/>
 
 
